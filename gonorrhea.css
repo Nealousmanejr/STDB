@@ -1,0 +1,53 @@
+body{
+  background-image:url(https://i.pinimg.com/originals/a6/22/50/a62250e0b8576e94f8082cde346ad8a7.jpg);
+  background-position: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#header{
+  color: white;
+  text-align: center;
+  letter-spacing: 3px;
+  text-shadow: 2px 2px #333333;
+}
+
+.active{
+  background-color: white;
+  color: black;
+}
+ul {
+  list-style-type: none;
+  margin: -10px;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+  text-align: center;
+}
+
+li {
+  float: left;
+  text-align: right;
+
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  letter-spacing: 7px;
+  padding: 14px 53.2px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+#head{
+  color: white;
+  text-align: center;
+  font-size: 70px;
+  letter-spacing: 3px;
+  text-shadow: 2px 2px black;
+  font-family: Trebuchet MS;
+}

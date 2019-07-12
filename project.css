@@ -1,0 +1,88 @@
+body{
+  background-image:url(http://proje106.com.tr/images/upload/d35b24c11959df7cc56903c2c2918fd6.jpg);
+  background-position: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#header{
+  color: white;
+  text-align: center;
+  letter-spacing: 3px;
+  text-shadow: 2px 2px #333333;
+}
+
+.active{
+  background-color: white;
+  color: black;
+}
+ul {
+  list-style-type: none;
+  margin: -10px;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+  text-align: center;
+}
+
+li {
+  float: left;
+  text-align: right;
+
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  letter-spacing: 7px;
+  padding: 14px 51.9px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+#tii{
+  color: white;
+  text-align: center;
+  font-size: 70px;
+  letter-spacing: 3px;
+  text-shadow: 2px 2px black;
+  font-family: Trebuchet MS;
+}
+#rer{
+  color: black;
+  font-size: 40px;
+  letter-spacing: 3px;
+  text-shadow: 2px 2px 50px black;
+  font-family: Trebuchet MS;
+}
+.wet{
+  color: black;
+  font-size: 20px;
+  letter-spacing: 3px;
+  text-shadow: 2px 2px 50px white;
+  font-family: Trebuchet MS;
+  border: solid black 10px;
+  background-color: white;
+}
+#ukno{
+  color: black;
+  font-size: 40px;
+  letter-spacing: 3px;
+  text-shadow: 2px 2px 50px black;
+  font-family: Trebuchet MS;
+}
+#ouy{
+  height: 300px;
+  box-shadow: 30px 50px 30px black;
+}
+#yuu{
+  height: 300px;
+  box-shadow: 30px 50px 30px black;
+}
+#fgh{
+  height: 300px;
+  box-shadow: 30px 50px 30px black;
+}

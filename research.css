@@ -1,0 +1,109 @@
+body{
+  background-image:url(https://fekmx2strm-flywheel.netdna-ssl.com/wp-content/uploads/2019/02/joao-silas-74207-unsplash.jpg);
+  background-position: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#header{
+  color: white;
+  text-align: center;
+  letter-spacing: 3px;
+  text-shadow: 2px 2px #333333;
+}
+
+.active{
+  background-color: white;
+  color: black;
+}
+ul {
+  list-style-type: none;
+  margin: -10px;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+  text-align: center;
+}
+
+li {
+  float: left;
+  text-align: right;
+
+}
+
+li a {
+ display: block;
+  color: white;
+  text-align: center;
+  letter-spacing: 7px;
+  padding: 14px 51.9px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+#pictureholder1{
+  height: 300px;
+  float: left;
+  width:500px;
+}
+
+#paragraph1{
+  text-align: center;
+  font-size: 29px;
+  background-color: rgba(0,0,0,0.7);
+  margin-bottom: 100px;
+  color: white;
+}
+
+#pictureholder2{
+  height: 300px;
+  float: right;
+  width: 500px;
+}
+
+#paragraph2{
+  text-align: center;
+  font-size: 29px;
+  background-color: rgba(0,0,0,0.7);
+  margin-top: 6px;
+  color: white;
+}
+
+#pictureholder3{
+  height: 300px;
+  float: left;
+}
+
+#paragraph3{
+  text-align: center;
+  font-size: 29px;
+  background-color: rgba(0,0,0,0.7);
+  margin-top: 6px;
+  color: white;
+}
+
+#pictureholder4{
+  height: 300px;
+  float: right;
+}
+
+#paragraph4{
+  text-align: center;
+  font-size: 29px;
+  background-color: rgba(0,0,0,0.7);
+  margin-top: 6px;
+  color: white;
+}
+
+#researchheader{
+  color: white;
+  text-align: center;
+  font-size: 70px;
+  letter-spacing: 3px;
+  text-shadow: 2px 2px black;
+  font-family: Trebuchet MS;
+}
+

@@ -1,0 +1,78 @@
+body{
+  background-image:url(http://getwallpapers.com/wallpaper/full/1/c/a/840859-free-download-email-wallpapers-1920x1234-hd.jpg);
+  background-position: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#header{
+  color: white;
+  text-align: center;
+  letter-spacing: 3px;
+  text-shadow: 2px 2px #333333;
+}
+
+.active{
+  background-color: white;
+  color: black;
+}
+ul {
+  list-style-type: none;
+  margin: -10px;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+  text-align: center;
+}
+
+li {
+  float: left;
+  text-align: right;
+
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  letter-spacing: 7px;
+  padding: 14px 51.9px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+{font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: blue;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: rgba(0,0,0,0.5);
+  padding: 20px;
+}

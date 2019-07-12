@@ -1,0 +1,55 @@
+body{
+  background-image:url(https://data.1freewallpapers.com/detail/leaves-plant-branches-dark.jpg);
+  background-position: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+.active{
+  background-color: white;
+  color: black;
+}
+ul {
+  list-style-type: none;
+  margin: -10px;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+  text-align: center;
+}
+
+li {
+  float: left;
+  text-align: right;
+
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  letter-spacing: 7px;
+  padding: 14px 53.3px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+#clappers{
+  color: white;
+  text-align: center;
+  text-shadow: 2px 2px black;
+  font-size: 50px;
+  font-family: Trebuchet MS;
+}
+
+#clappers_text{
+  color: white;
+  text-align: center;
+  text-shadow: 2px 2px black;
+  font size: 15px;
+  font-family: Trebuchet MS;
+}

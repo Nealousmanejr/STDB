@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="contact.css">
+	</head>
+<div>
+<body>
+	<div id="backgroundimage">
+	<h1 id ="header">STDB Inc.</h1>
+	<nav style="display: inline-block; text-align: center;">
+		<ul>
+		<li><a href="index.html">Home</a></li>
+		<li><a href="about.html">About</a></li>
+		<li><a href="gonorrhea.html">Infographic</a></li>
+		<li><a href="research.html">Research</a></li>
+		<li><a href="project.html">Project</a></li>
+		<li><a class="active" href="contact.html">Contact Us</a></li>
+		</ul>
+	</div>
+	</nav>
+
+</style>
+</head>
+<body>
+<br>
+<h1 style="font-size: 70px; text-align: center;">Contact Form</h1>
+
+<div class="container">
+  <form action="/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="usa">USA</option>
+      <option value="canada">Canada</option>
+      <option value="australia">Austrailia</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+</body>
+</html>

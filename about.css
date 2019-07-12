@@ -1,0 +1,100 @@
+body{
+  background-image:url(https://singledadventures.files.wordpress.com/2016/10/wp-image-151920396jpg.jpg);
+  background-position: right;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#header{
+  color: white;
+  text-align: center;
+  letter-spacing: 3px;
+  text-shadow: 2px 2px #333333;
+  font-family: Trebuchet MS;
+}
+
+.active{
+  background-color: white;
+  color: black;
+}
+ul {
+  list-style-type: none;
+  margin: -10px;
+  padding: 0px;
+  overflow: hidden;
+  background-color: #333333;
+  text-align: center;
+}
+
+li {
+  float: left;
+  text-align: right;
+
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  letter-spacing: 7px;
+  padding: 14px 51.9px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+#aboutus{
+  text-align: center;
+  font-size: 70px;
+  letter-spacing: 3px;
+  color: white;
+  text-shadow: 2px black;
+  background-color: rgba(0,0,0,0.4);
+}
+#jason{
+  padding: 10px;
+  width: 450 px;
+  font-size: 14pt;
+  float: right;
+  }
+  #hee{
+    object-fit: cover;
+    height: 300px;
+    width: 300px;
+    float: left;
+  }
+
+  p{
+    color: white;
+    background-color: rgba(0,0,0,0.7);
+    letter-spacing: 2px;
+    font-style: bold;
+  }
+  #aj{
+    object-fit: cover; 
+    height:300px;
+    width: 300px;;
+    float: left;
+  }
+  #ajani{
+    float: right;
+  }
+  #to{
+    object-fit: cover;
+    height: 300px;
+    float: left;
+    }
+    #toni{
+      float: right;
+    }
+    #oz{
+      object-fit: cover;
+      height: 300px;
+      width: 300px;
+      float: left;
+    }
+    #ousmane{
+      float: right;
+    }
